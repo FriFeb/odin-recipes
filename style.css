@@ -1,0 +1,46 @@
+html {
+  font-size: 24px;
+  /* text-align: center; */
+}
+
+body {
+  background-color: hsl(40, 50%, 95%);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto 15%;
+
+}
+
+h1,
+h2 {
+  text-transform: capitalize;
+  font-style: italic;
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  border: 3px dashed currentColor;
+  border-radius: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.recipes {
+  list-style-type: circle;
+}
+
+.recipes a {
+  text-decoration: none;
+  text-transform: capitalize;
+  /* font-variant: small-caps; */
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
