@@ -49,12 +49,39 @@ ul {
   margin-bottom: 1rem;
 }
 
+.header-container {
+  background-color: darkslategray;
+}
+
 .container {
-  width: 80vw;
+  max-width: 1000px;
   margin: auto;
   border: 3px solid darkred;
   border-radius: 1rem;
   background-color: hsl(0, 100%, 97%);
+}
+
+.header {
+  list-style: none;
+  font-size: x-large;
+  text-transform: capitalize;
+  padding: 30px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link-container {
+  display: flex;
+  gap: 5rem;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: lightgray;
 }
 
 .content {
